@@ -20,7 +20,7 @@ containerEl = document.getElementById("container").onmouseleave = function(){
 }
 
 containerEl = document.getElementById("container").onmouseout = function(){
-    this.style.backgroundColor = "green";
-    this.style.border = "5px solid orange";
-    this.style.transform = "scale(1.0)";
+    this.style.backgroundColor = "white";
+    this.style.border = "1px solid black";
+    this.style.transform = "scale(0.2)";
 }
