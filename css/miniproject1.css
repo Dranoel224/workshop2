@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+#container {
+    width: 250px;
+    height: 320px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: teal;
+    box-shadow: 2px 4px 6px teal;
+}
+
+#screen {
+    width: 240px;
+    height: 40px;
+    margin: auto;
+    border: 1px solid gray;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.digits{
+    display: inline-block;
+    border: 1px solid black;
+    width: 45px;
+    height: 35px;
+    margin: auto;
+    margin: 7px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 10px;
+    font-family: Montserrat, sans-serif;
+    color: orange;
+    border-radius: 5px;
+    background-color: rgba(100, 120, 230, 0.8);
+    font-display: center;
+}
+
+.plus, .minus, .divide, .multiply, .c, .dot, .brackOpen, .brackClose, .equal, .percent {
+    background-color: grey;
+}
